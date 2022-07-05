@@ -1,0 +1,5 @@
+tupla = ('Grêmio','Inter','Chape','Flamengo','Corintiãns','Palmeiras','Santos','Bota fogo','Avaí','Cruzeiro')
+print(f'os priemrios times são: {tupla[0:5]}')
+print(f'Os ultimos colocados são: {tupla[-4:]}')
+print(f'times em ordem alfabetica:{sorted(tupla)}')
+print(f'a chape está na {tupla.index("Chape")+1} posição')
