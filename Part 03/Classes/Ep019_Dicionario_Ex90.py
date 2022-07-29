@@ -39,5 +39,10 @@ for c in range (0,3):
     estados['uf'] = str(input('Unidade Federativa:'))
     estados['sigla'] = str(input('Sigla do estado:'))
     brasil.append(estados.copy())
+'''for e in brasil:
+    for v,k in e.items():
+        print(f'o campo {v} tem o valor {k}')'''
 for e in brasil:
-    print(e)
+    for v in e.values():
+        print (v, end= ' ')
+    print()
